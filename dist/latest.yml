@@ -1,0 +1,8 @@
+version: 0.0.0
+files:
+  - url: CHAOS-Demo-Setup-0.0.0.exe
+    sha512: Kt4cSKHfeqVpANRN/L7S/8zOu+BmaJ9XcugyCu6v4YmXEbk0Q9KSJpuL0Kh3TXSC54HO9/+m1c79bmF7ekxOiQ==
+    size: 80432322
+path: CHAOS-Demo-Setup-0.0.0.exe
+sha512: Kt4cSKHfeqVpANRN/L7S/8zOu+BmaJ9XcugyCu6v4YmXEbk0Q9KSJpuL0Kh3TXSC54HO9/+m1c79bmF7ekxOiQ==
+releaseDate: '2024-05-28T20:22:39.926Z'

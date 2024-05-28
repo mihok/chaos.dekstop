@@ -1,0 +1,9 @@
+version: 0.0.0
+files:
+  - url: CHAOS-Demo-0.0.0.AppImage
+    sha512: KMa66NILXI21VMYAmjH0kQ9x+3QUKm6vLxZ3/zFAlhYmvbTYF3Auhd+oW6Ba3k/3d35cL8zagUYzzd8PQ2vKZw==
+    size: 105866033
+    blockMapSize: 111429
+path: CHAOS-Demo-0.0.0.AppImage
+sha512: KMa66NILXI21VMYAmjH0kQ9x+3QUKm6vLxZ3/zFAlhYmvbTYF3Auhd+oW6Ba3k/3d35cL8zagUYzzd8PQ2vKZw==
+releaseDate: '2024-05-28T20:23:08.445Z'

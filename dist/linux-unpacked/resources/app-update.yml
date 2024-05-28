@@ -1,0 +1,4 @@
+owner: mihok
+repo: chaos.dekstop
+provider: github
+updaterCacheDirName: chaos.desktop-updater

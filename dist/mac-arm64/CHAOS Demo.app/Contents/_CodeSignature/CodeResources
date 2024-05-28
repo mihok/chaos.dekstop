@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/app.asar</key>
 		<data>
-		6Ccjzef3W14qvlJUSFWsQylzr34=
+		nt5H1pq6z2U86JezsS3BT1eD+Jo=
 		</data>
 		<key>Resources/electron.icns</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gVKYWsQDLSLkdjqVIU+o0WIcgDc=
+			VipKi8SsvGR4jdyqBk/DWHYOgF4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Electron.framework" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: MATTHEW ANDREW MIHOK (7AVN8W89AH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zbVfBVhf69WgCgIrLUQJTziAivQ=
+			xyu/3fRGwt7W5FUP7Ka2elP598I=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: MATTHEW ANDREW MIHOK (7AVN8W89AH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wgbDUblu834E3fkuRdZkcxqg7D4mvufwBRvwYZeSQ84=
+			GlxgfttYsszNOPjYHp8BCYvihqiC5OeB6Ih8cxfYOJs=
 			</data>
 		</dict>
 		<key>Resources/electron.icns</key>
