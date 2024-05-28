@@ -5,7 +5,7 @@
 	"main": "build/index.js",
 	"scripts": {
 		"electron": "electron",
-    "electron-builder": "electron-builder",
+		"electron-builder": "electron-builder",
 		"eslint": "eslint",
 		"playwright": "playwright",
 		"prettier": "prettier",
@@ -18,7 +18,7 @@
 		"dev": "npm run vite -- dev",
 		"build": "npm run vite -- build",
 		"preview": "npm run vite -- preview",
-    "distribute": "npm run build && npm run distro:mac && npm run distro:win && npm run distro:linux",
+		"distribute": "npm run build && npm run distro:mac && npm run distro:win && npm run distro:linux",
 		"clean": "rm -r build",
 		"check": "npm run check:app",
 		"lint": "npm run prettier -- --check . && npm run eslint -- .",
@@ -28,9 +28,9 @@
 		"check:app": "npm run svelte-kit -- sync && npm run svelte-check -- --tsconfig ./ts.config.json",
 		"check:watch": "npm run check:watch:app",
 		"check:watch:app": "npm run check:app -- --watch",
-    "distro:mac": "npm run electron-builder -- --mac",
-    "distro:win": "npm run electron-builder -- --win",
-    "distro:linux": "npm run electron-builder -- --linux",
+		"distro:mac": "npm run electron-builder -- --mac",
+		"distro:win": "npm run electron-builder -- --win",
+		"distro:linux": "npm run electron-builder -- --linux",
 		"test:integration": "npm run playwright -- test",
 		"test:unit": "npm run vitest"
 	},
@@ -59,17 +59,20 @@
 	},
 	"homepage": "https://github.com/mihok/chaos.dekstop#readme",
 	"build": {
-    "appId": "com.0x4d69686f6b.desktop",
-    "copyright": "Copyright © 2024 Matthew Mihok. All rights reserved.",
-    "directories": {
-      "output": "dist"
+		"appId": "com.0x4d69686f6b.desktop",
+		"copyright": "Copyright © 2024 Matthew Mihok. All rights reserved.",
+		"directories": {
+			"output": "dist"
+		},
+		"files": [
+			"build/**/**"
+		],
+    "linux": {
+      "target": "deb"
     },
-    "files": [
-      "build/**/**"
-    ],
-    "productName": "CHAOS Demo"
-  },
-  "devDependencies": {
+		"productName": "CHAOS Demo"
+	},
+	"devDependencies": {
 		"@dimforge/rapier3d-compat": "^0.13.1",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",

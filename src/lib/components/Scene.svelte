@@ -3,6 +3,9 @@
 	import { interactivity } from '@threlte/extras';
 	import { spring } from 'svelte/motion';
 
+  import Interface from './Interface.svelte';
+  import Camera from './Camera.svelte';
+
 	interactivity();
 	const scale = spring(1);
 
@@ -12,13 +15,7 @@
 	});
 </script>
 
-<T.PerspectiveCamera
-	makeDefault
-	position={[10, 10, 10]}
-	on:create={({ ref }) => {
-		ref.lookAt(0, 1, 0);
-	}}
-/>
+<Camera />
 
 <T.Mesh
 	rotation.y={rotation}
@@ -28,7 +25,7 @@
 	on:pointerleave={() => scale.set(1)}
 >
 	<T.BoxGeometry args={[1, 2, 1]} />
-	<T.MeshBasicMaterial color="hotpink" />
+	<T.MeshBasicMaterial color="cyan" />
 </T.Mesh>
 
-Test
+<Interface />

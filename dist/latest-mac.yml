@@ -1,11 +1,11 @@
 version: 0.0.0
 files:
   - url: CHAOS-Demo-0.0.0-arm64-mac.zip
-    sha512: y/YMsPItIQz2IOQQl5p8+KdNQNxFQ8ZfXy9ZGiebnYYAMzfE+d/e5E5FMKhTrDsZyY8JeIFk9w4WmqTKNkD33g==
-    size: 91918756
+    sha512: BhI2kaxNjFplyjY5PtkyBWUMd7ZUIFSkK7MvNIqKpS4CxAdYsyPpQjBTN1O9kPBfPbC5iojL5hzrb21tqbw95Q==
+    size: 91918922
   - url: CHAOS-Demo-0.0.0-arm64.dmg
-    sha512: yrEDLS/GJAnuuW0kOxLCXgAY/J1lIje1YqwQOcdw0itW847X4X2s9yHa5wdEfIBGUlXioXinj/ZLJRd3AdHi1A==
-    size: 95480922
+    sha512: clX0TsNxoW8gi6jkjpftjo6mJxmKku5uFMKxl2KyhWA4HcRJAiHMUSdBfb93KfrEharraHbcjN6+w+pO+G+bnA==
+    size: 95458908
 path: CHAOS-Demo-0.0.0-arm64-mac.zip
-sha512: y/YMsPItIQz2IOQQl5p8+KdNQNxFQ8ZfXy9ZGiebnYYAMzfE+d/e5E5FMKhTrDsZyY8JeIFk9w4WmqTKNkD33g==
-releaseDate: '2024-05-28T20:21:32.373Z'
+sha512: BhI2kaxNjFplyjY5PtkyBWUMd7ZUIFSkK7MvNIqKpS4CxAdYsyPpQjBTN1O9kPBfPbC5iojL5hzrb21tqbw95Q==
+releaseDate: '2024-05-28T22:38:01.636Z'

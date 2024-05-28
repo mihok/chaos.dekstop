@@ -1,0 +1,8 @@
+version: 0.0.0
+files:
+  - url: chaos.desktop_0.0.0_arm64.deb
+    sha512: Tzw1VvABL6oL27SmYJ0LnTmVnyX/zWHLy3zvtDibE/Mza4KYWACTFnaiPIgpdwaw9PR/kHaof6/oBSaslmK4iQ==
+    size: 69140726
+path: chaos.desktop_0.0.0_arm64.deb
+sha512: Tzw1VvABL6oL27SmYJ0LnTmVnyX/zWHLy3zvtDibE/Mza4KYWACTFnaiPIgpdwaw9PR/kHaof6/oBSaslmK4iQ==
+releaseDate: '2024-05-28T22:39:47.199Z'
