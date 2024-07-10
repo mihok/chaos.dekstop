@@ -68,7 +68,8 @@
 			"build/**/**"
 		],
     "linux": {
-      "target": "deb"
+      "target": "deb",
+      "category": "3DGraphics"
     },
 		"productName": "CHAOS Demo"
 	},

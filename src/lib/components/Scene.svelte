@@ -17,6 +17,7 @@
 
 <Camera />
 
+<!--
 <T.Mesh
 	rotation.y={rotation}
 	position.y={1}
@@ -27,5 +28,6 @@
 	<T.BoxGeometry args={[1, 2, 1]} />
 	<T.MeshBasicMaterial color="cyan" />
 </T.Mesh>
+-->
 
 <Interface />
