@@ -90,8 +90,10 @@ export class Window {
 			darkTheme: true,
 			height: this.height,
 			titleBarStyle: 'hidden',
+      ...(process.platform !== 'darwin' ? { titleBarOverlay: true } : {}),
+      trafficLightPosition: { x: 16, y: 14 },
 			webPreferences,
-			width: this.width
+			width: this.width,
 		});
 
 		await this.window.loadURL(this.url);
