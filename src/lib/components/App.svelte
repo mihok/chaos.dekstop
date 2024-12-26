@@ -1,8 +1,13 @@
 <script>
-  import { Canvas } from '@threlte/core';
+  import { Canvas, extend } from '@threlte/core';
+  import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
   import Scene from './Scene.svelte';
   import TitleBar from './TitleBar.svelte';
-  import StatusBar from './StatusBar.svelte.ts';
+  import StatusBar from './StatusBar.svelte';
+
+  extend({
+    OrbitControls, 
+  });
 </script>
 
 <TitleBar />
